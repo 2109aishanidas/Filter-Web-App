@@ -22,7 +22,7 @@ function draw(){
   fill(255,255,0)
 }
 function take_snapshot(){
-    save("MyfilterSelfie.png")
+    save("MyfilterPicture.png")
 }
 function filter_color(){
   tint_color=document.getElementById("colour_name").value
